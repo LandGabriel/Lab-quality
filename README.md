@@ -1,3 +1,4 @@
+![Logo do projeto](https://raw.githubusercontent.com/LandGabriel/Lab-quality/main/LabQuality/labQuality/src/assets/Lab-image.png)
 O Lab Quality é uma aplicação desenvolvida em React que permite aos usuários monitorar e controlar os valores de exames laboratoriais de forma simples e intuitiva. Com uma interface amigável, a aplicação oferece funcionalidades para registrar exames, adicionar valores diários, visualizar gráficos e receber feedback sobre as médias e tendências dos valores registrados.
 
 - [Para acessar o projeto](https://lab-quality.vercel.app/)
