@@ -1,0 +1,172 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  color: #201f1b;
+}
+
+h1 {
+  text-align: center;
+  color: #ff5e1e;
+  margin-bottom: 20px;
+}
+select {
+  border: 2px solid #cccccc;
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 16px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  appearance: none;
+  transition: border-color 0.3s;
+}
+
+select:hover {
+  border-color: #d3dadf;
+}
+
+select:focus {
+  outline: none;
+  border-color: #ff5e1e;
+}
+.alert {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ff5e1e;
+  background-color: #fff3e0;
+  color: #ff5e1e;
+  font-weight: bold;
+}
+.app-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.content-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.sidebar-svg {
+  max-width: 430px;
+}
+
+.sidebar-svg img {
+  width: 100%;
+  height: auto;
+}
+
+.app1 {
+  margin: 60px;
+}
+.approved {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 5px;
+  border-radius: 4px;
+  margin: 5px 0;
+}
+
+.rejected {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 5px;
+  border-radius: 4px;
+  margin: 5px 0;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 81%;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus {
+  border-color: #ff5e1e;
+  outline: none;
+}
+
+/* Button Styles */
+button {
+  padding: 10px 15px;
+  background-color: #ff5e1e;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e05218;
+}
+
+button + button {
+  margin-left: 10px;
+  background-color: #ccc;
+}
+
+button + button:hover {
+  background-color: #b3b1a5;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+@media (max-width: 480px) {
+  .sidebar-svg img {
+    display: none;
+  }
+
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+  }
+}
