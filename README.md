@@ -44,7 +44,7 @@ O Lab Quality é uma aplicação desenvolvida em React que permite aos usuários
     
     ```bash
     bashCopiar código
-    cd HealthMonitor
+    cd LabQuality
     
     ```
     
